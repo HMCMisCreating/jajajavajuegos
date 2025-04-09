@@ -10,7 +10,7 @@ COPY . .
 # Construir el proyecto usando Maven
 RUN mvn clean package -DskipTests
 
-# Segunda etapa: Imagen final optimizada con solo el JAR  - Estapa de creación y ejecución
+# Segunda etapa: Imagen final optimizada con solo el JAR  - Etapa de creación y ejecución
 FROM openjdk:17-jdk-slim
 
 # Configurar directorio de trabajo
