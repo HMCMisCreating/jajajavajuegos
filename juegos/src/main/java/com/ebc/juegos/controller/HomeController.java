@@ -10,7 +10,7 @@ public class HomeController {
 
     @GetMapping
     public String home(){
-        return "Hola...soy el defaultt teehee! Estoy sobre docker - oh, y en AWS!!";
+        return "Hola...CI/CD?!";
     }
 
 
